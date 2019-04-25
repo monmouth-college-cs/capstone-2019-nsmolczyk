@@ -1,0 +1,15 @@
+.stack{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.queue{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+#controls{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Algorithm Visualization Project</title>
+</head>
+
+<body>
+    <h1>Selection Sort</h1>
+
+    <svg width="500" height="300" class="ssort"></svg>
+
+    <svg width="500" height="300" class="stack"></svg>
+    <div id='controls'>
+        <input id='pushinput' type="Number" value="" size=2>
+        <button onclick="pushButtonAction()">Push</button>
+        <button onclick="popButtonAction()">Pop</button>
+    </div>
+
+    <svg width="500" height="300" class="queue"></svg>
+    <div id='queuecontrols'>
+        <input id='enqueueinput' type="Number" value="" size=2>
+        <button onclick="enqueueButtonAction()">Enqueue</button>
+        <button onclick="dequeueButtonAction()">Dequeue</button>
+    </div>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="avScript.js"></script>
+</body>
+
+</html>

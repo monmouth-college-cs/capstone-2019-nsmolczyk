@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Algorithm Visualization Project</title>
+    <link rel="stylesheet" href="indexstyles.css">
+    <link rel="stylesheet" href="dsstyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header class="flex-header">
+        <h1>Algorithm Visualization Project</h1>
+    </header>
+    <main class="flex-main">
+        <nav class="flex-nav">
+
+            <div id='queuecontrols'>
+                <input id='enqueueinput' type="Number" value="" size=2>
+                <button onclick="enqueueButtonAction()">Enqueue</button>
+                <button onclick="dequeueButtonAction()">Dequeue</button>
+            </div>
+        </nav>
+        <article class="flex-article">
+            <svg width="500" height="300" class="queue"></svg>
+        </article>
+        <aside class="flex-aside">
+            <ul>
+                <li>
+                    <a href="index.html">Sorting</a>
+                </li>
+                <li>Data Structures</li>
+                <ul>
+                    <li>
+                        <a href="stack.html">Stack</a>
+                    </li>
+                    <li>
+                        <a href="queue.html">Queue</a>
+                    </li>
+                </ul>
+                <li>
+                    <a href="ml.html">Machine Learning</a>
+                </li>
+            </ul>
+        </aside>
+
+    </main>
+    <footer class="flex-footer">
+        <h4>by Nate Smolczyk</h4>
+    </footer>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="dsscript.js"></script>
+</body>
+
+</html>

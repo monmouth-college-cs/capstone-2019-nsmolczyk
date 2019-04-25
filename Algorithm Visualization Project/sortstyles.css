@@ -1,0 +1,30 @@
+.ssort {
+    background-color: black;
+    
+    }   
+
+#svgcontainer {
+    width: 100%;
+}
+
+.flex-article {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+article > h1{
+    padding-top: none;
+    color: black;
+}
+
+#pseudocode{
+    width: 100%;
+    padding-left: 200px;
+}
+#pseudocode > p{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

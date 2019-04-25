@@ -1,0 +1,40 @@
+/*
+Nate Smolczyk
+January 23rd, 2019
+Algorithm Visualization Project 
+*/
+
+.ssort {
+    background-color: black;
+    }
+/*
+rect {
+    fill: red;
+}
+
+.min {
+    fill: yellow;
+}
+
+.sorted {
+    fill: green;
+}
+*/
+.stack{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    
+    
+}
+
+.queue{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+#controls{
+    margin-bottom: 100px;
+}
+
